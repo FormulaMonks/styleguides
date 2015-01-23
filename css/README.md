@@ -37,13 +37,7 @@ of how to structure the CSS of a web application, in an organized scalable way.
   .icon--minus { background-position: -4px -58px; }
   ```
 
-* Align vendor prefixed properties with the non-prefixed property.
-  ```css
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-       -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  ```
+* Let [autoprefixer](https://github.com/postcss/autoprefixer) handle vendor prefixes.
 
 * Use `rgb()` and `rgba()` only to define colors, and don't leave spaces after
   the opening parentheses or before the closing parentheses.
@@ -125,9 +119,6 @@ of how to structure the CSS of a web application, in an organized scalable way.
 * Use common sense.
 
 ## LESS (or SASS) specifics
-
-* Use mixins for every property declaration that requires vendor prefixes, mixin
-  names are prefixed with `m-`.
 
 * Use a mixin for declaring the `font-size` and `line-height` in `px`, to
   transform it into `em`, receiving the context in `px` as an optional
