@@ -1,7 +1,7 @@
 Citrusbyte Styleguides
 ===========
 
-Styleguides for our most commonly used langauges:
+Styleguides for our most commonly used languages:
 
 * [ruby](https://github.com/citrusbyte/styleguides/tree/master/ruby)
 * [javascript](https://github.com/citrusbyte/styleguides/tree/master/javascript)
