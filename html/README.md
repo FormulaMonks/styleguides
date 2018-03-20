@@ -13,7 +13,8 @@
 * When a single tag takes more than one line, align the first letter of each
   attribute to the first letter of the first attribute. Leave a blank line after
   the tag end.
-  ```
+
+```
 <!-- _ represent spaces -->
 <a class="verLongClassName"
 ___id="very-long-id-attribute"
